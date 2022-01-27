@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+
+	<!-- Intégration des polices -->
+
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+
+	<!-- Intégration style CSS -->
+
+	<link rel="stylesheet" href="style.css">
+
+	<title>Grand Projet première année digital EGS Bordeaux</title>
+
+</head>
+
+<body>
+
+	<!-- HEADER ET NAVIGATION -->
+
+	<header class="sticky">
+		<h1 class="aze_title"> AZE ESPORT</h1>
+			<nav>
+				<ul>
+					<li>
+						<a href="homepage.html" title="voir l'accueil">Accueil</a>
+					</li>
+					<li>
+						<a href="homepage.html#team" title="voir la team AZE">La team AZE</a>
+					</li>
+					<li>
+						<a href="homepage.html#joueurs" title="voir les joueurs">Les joueurs</a>
+					</li>
+					<li>
+						<a href="homepage.html#contact" id="last" title="voir nos réseaux">Nos réseaux</a>
+					</li>
+					<li>
+						<a href="#" title="voir comment nous contacter">Nous contacter !</a>
+					</li>
+				</ul>
+			</nav>
+	</header>
+	
+	<!-- Fin header et navigation -->
+
+	<!-- Début contenu principal -->
+
+	<main id="main-content" class="wrap-contact">
+		<div class="container">
+		  <form action="action_page.php">
+
+		    <label for="fname">Ton pseudo</label>
+		    <input type="text" id="fname" name="firstname" placeholder="Ton pseudo">
+
+		    <label for="lname">Ton email</label>
+		    <input type="text" id="lname" name="lastname" placeholder="Example@mail.com">
+
+		    <label for="country">Ton pays</label>
+		    <select id="country" name="country">
+		      <option value="France">France</option>
+		      <option value="Autre">Autre...</option>
+		    </select>
+
+		    <label for="subject">Ton commentaire</label>
+		    <textarea id="subject" name="subject" placeholder="Ecris ton commentaire ici !" style="height:200px"></textarea>
+
+		    <input type="submit" value="Envoyer">
+
+		  </form>
+		</div>
+
+	</main>
+
+	<!-- Fin contenu principal -->
+
+	<!-- Début footer -->
+
+	<footer>
+	<img class="logo_small" src="img/logo.png" alt="Logo de l'équipe AZE">
+	<p>© 2020 Team AZE</p>
+	</footer>
+
+	
+</body>
+</html>

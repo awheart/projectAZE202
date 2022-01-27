@@ -1,0 +1,334 @@
+html {
+	margin: 0;
+	padding: 0;
+	height: 100px;
+	width: 100%;
+	scroll-behavior: smooth;
+	background-color: #000;
+}
+
+/*NAVIGATION*/
+.sticky {
+	display: flex;
+	display: -webkit- flex;
+	display: -o-flex;
+	display: -ms-flex;
+	display: -moz-flex;
+	z-index: 9999;
+	top: 0px;
+	height: 125px;
+	justify-content: space-between;
+	align-items: center;
+	box-sizing: border-box;
+	position: sticky;
+	text-align: center;
+	display: block;
+}
+header img {
+	align-items: left;
+}
+nav {
+	font-family: 'Raleway', sans-serif;
+	width: 100%;
+	height: 65px;
+	margin: 0;
+	padding: 0;
+	background-color: #37474f;
+	text-align: center;
+	font-size: 1.5rem;
+}
+/*FIN NAVIGATION*/
+
+/*LISTE*/
+ul li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	padding: 10px;
+}
+ul li a {
+	color: #c1d5e0;
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+	margin-right: 10px;
+	border-radius: 4px;
+}
+ul li a:hover {
+	display: block;
+	background-color: #90a4ae;
+}
+/*FIN LISTE*/
+
+/*MAIN CONTENT*/
+.logo {
+	width: 290px;
+	height: 400px;
+	margin-top: 50px;
+	margin-bottom: -100px;
+	margin-left: 40px;
+}
+.wrap {
+	text-align: center;
+	margin-top: -5px;
+	width: 100%;
+	height: 3320px;
+	background-color: #c7c7c7;
+}
+.team {
+	font-family: 'Roboto', sans-serif;
+	width: 50%;
+	margin-left: 25%;	
+	padding-left: 30px;
+	color: #455a64;
+}
+strong{
+	color: #000;
+}
+/*FIN MAIN CONTENT*/
+
+/*TITRE*/
+.aze_title {
+	font-family: 'Raleway', sans-serif;
+	font-size: 4rem;
+	margin-bottom: -25px;
+	margin-top: -9px;
+	padding: 0;
+	height: 55px;
+	text-align: center;
+	color: #fff;
+    background: linear-gradient(to top, #37474f, 40%, #ba000d);
+}
+.first-title {
+	color: #f4511e;
+	margin-left: 50px;
+	margin-top: 50px;
+	padding-top: 50px;
+	font-size: 2rem;
+}
+.titre {
+	color: #f4511e;
+	margin-left: 0px;
+	margin-top: 50px;
+	padding-top: 110px;
+	border-top: solid 5px #fff;
+	font-size: 2rem;
+}
+.last-title {
+	color: #f4511e;
+	margin-left: -142px;
+	margin-top: -16px;
+	padding-top: 25px;
+	font-size: 2rem;
+	display: block;
+	width: 1887px;
+	border-top: solid 5px #fff;
+	text-align: center;
+}
+h2 {
+	font-family: 'Raleway', sans-serif;
+	text-decoration: underline;
+	color: #102027;
+}
+.titre_reseaux {
+	color: #2e7d32;
+	font-family: 'Raleway', sans-serif;
+}
+/*FIN TITRE*/
+
+/*CAROUSEL*/
+.card-title {
+	color: #2e7d32;
+}
+.carousel-items {
+    display: flex;
+    padding: 1rem 0;
+}
+.carousel-item {
+    margin-left: 2rem;
+}
+.carousel-item {
+    flex: 1 0 450px;
+    margin-left: 1rem;
+}
+.carousel-items {
+    display: flex;
+    padding: 1rem 0;
+}
+.carousel-item {
+    flex: 1 0 250px;
+    margin-left: 0rem;
+}
+.carousel {
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	color: #000;
+}
+/*FIN CAROUSEL*/
+
+/*CARDS*/	
+.card {
+	border: solid 1px darkgrey;
+	border-radius: 10px;
+}
+#legende {
+	width: 480px;
+	height: 280px;
+	border-radius: 10px;
+}
+#wraith {
+	background-color: #102027;
+	width: 150px;
+	margin-top: 70px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	margin-left: 210px;
+	color: #c1d5e0;
+}
+#watson {
+	background-color: #039be5;
+	width: 150px;
+	margin-top: 35px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	margin-left: 210px;
+	color: #37474f;
+}
+#gibraltar {
+	background-color: #fff;
+	width: 150px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	margin-left: 210px;
+	color: #37474f;
+}
+.description {
+	width: 450px;
+	margin-left: 80px;
+}
+.video {
+	margin: 0;
+	padding: 0;
+	width: 550px;
+	height: 350px;
+	border-radius: 5px;
+}
+/*FIN CARD*/
+
+/*NOS RESEAUX*/
+.bgimg {
+	background-image: url(img/bg-contact.jpg);
+	position: absolute;
+	z-index: 1;
+	left: 0;
+	right: 0;
+	display: block;
+	margin-top: 300px;
+	width: 1886px;
+	height: 1080px;
+	filter: blur(1px);
+	margin-left: 8px;
+}
+
+#contact {
+	height: 1080px;
+	text-align: left;
+	margin-top: -250px;
+}
+/*FIN NOS RESEAUX*/
+
+/*TWITTER*/
+.twitter-follow-button {
+	position: relative;
+}
+.twitter {
+	position: absolute;
+	z-index: 2;
+	left: 0;
+	right: 0;
+	margin-left: 150px;
+	margin-top: 310px;
+}
+/*FIN TWITTER*/
+
+/*Twitch*/
+.twitch {
+	float: right;
+	z-index: 2;
+	position: absolute;
+	z-index: 2;
+	left: 0;
+	right: 0;
+	margin-left: 850px;
+	margin-top: 350px;
+}
+.twitch iframe {
+	border-radius: 20px;
+}
+/*FIN TWITCH*/
+
+/*PAGE DE CONTACT*/
+.wrap-contact {
+	font-family: 'Raleway', sans-serif;
+	width: 100%;
+	height: auto;
+	background-color: #c1d5e0;
+	text-align: left;
+}
+input[type=text], select, textarea {
+  width: 100%;	
+  padding: 12px;  
+  border: 1px solid #62757f;
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 5px; 
+  margin-bottom: 15px; 
+  resize: vertical 
+}
+input[type=submit] {
+  background-color: #039be5;
+  color: white;
+  padding: 10px 17px;
+  border: solid 1px #37474f;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 165px;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #006db3;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+/*FIN PAGE DE CONTACT*/
+
+/*FOOTER*/
+footer {
+	margin: 0;
+	padding: 0;
+	height: 105px;
+	width: 100%;
+	font-family: 'Roboto', sans-serif;
+	background-color: #37474f;
+	color: #fff;
+	padding-top: 10px;
+	align-items: center;
+}
+footer p {
+	padding-top: 20px;
+}
+.logo_small {
+	width: 70px;
+	height: 90px;
+	float: left;
+	margin-left: 850px;
+	padding-right: 10px;
+}
+/*FIN FOOTER*/
